@@ -1,0 +1,29 @@
+Running Ideas (add as much as you want)
+
+Lyric Game: Pair Genius API with Youtube API to make a Game
+The game can work like hangman/wordle
+Provide a string of lyrics from a random song (maybe recently popular or top all time?), with each guess (maybe up to 4-5?) a new lyric is added until guesses run out or the person gets it
+Always at the end of the game, the song on YouTube is played (if it is available, so it may be better to do more popular songs)
+
+Movie Connection Game: Pair IMDb API & an API to get quotes of the movie or Twitter API to be able to tweet your score?
+Starting with a given movie, try to List as many movies as possible that have connections (that are not repeated) 
+Ex: Avengers (Given)  -> Snowpiercer (Chris Evans) -> Parasite (Bong Joon-ho)
+
+Playlist Data - Pair Spotify with QuickChart API to produce a chart of the variety of genres listened to recently/in playlists, and within each genre provide the artist, and recommend some new artists/songs. 
+
+Song Game: Pair Spotify API & Genius API to get lyrics from the song? Twitter API to be able to tweet your score?
+Try to list as many songs from an artist as possible 
+
+Dif Movie Game: pair Letterboxd API and IMDb API to try to match the letterboxd review to the movie
+Maybe with each guess, reveal genre, lead actors, or smth else
+-Jack: this is interesting, you could also maybe censor the movies name in the review if it is mentioned at all/or other items
+
+Geogussr: Google Maps API and unique Spotify playlist for wherever you are dropped in the world
+
+Create a Vision OS App: Combine two simple API’s and just print them onto a Vision OS app
+
+Best Song for a Roadtrip: Combine Google Maps (or any Maps API) to get where someone is going, Use a Car API to check what car they are driving, Use Spotify API to get the song, Maybe you can even use Weather API for different types of mood?
+
+Clothes to wear for the day: Create a clothing fit based on day, weather, maybe stars, location, etc. NASA API, weather API, clothes API, maybe maps API. Maybe if you want sustainable fashion API as well
+
+Flight Finder: Find flights using Flight API and a carbon offset API. If you want to limit your search to only a certain amount of carbon offset. And find flights based on other preferences. Use weather app to provide weather for the day.
