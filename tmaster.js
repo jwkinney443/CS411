@@ -1,5 +1,5 @@
 //API key and API URL
-const apiKey = 'PUT API KEY HERE';
+const apiKey = 'API KEY GOES HERE';
 const apiUrl = 'https://app.ticketmaster.com/discovery/v2/events.json';
 
 
@@ -22,12 +22,6 @@ function searchEvents(keyword) {
         const firstEvent = data._embedded.events[0];
         console.log('First Event:', firstEvent);
 
-        if (firstEvent.url) {
-          console.log('Event URL:', firstEvent);
-        }
-        else {
-          console.log('Event URL not available');
-        }
       } else {
         console.log('No events found.')
       }
@@ -57,12 +51,6 @@ function zcSearchEvents(zipcode) {
         const firstEvent = data._embedded.events[0];
         console.log('First Event:', firstEvent);
 
-        if (firstEvent.url) {
-          console.log('Event URL:', firstEvent);
-        }
-        else {
-          console.log('Event URL not available');
-        }
       } else {
         console.log('No events found.')
       }
@@ -93,12 +81,6 @@ function proximitySearchEvents(keyword, zipcode) {
         const firstEvent = data._embedded.events[0];
         console.log('First Event:', firstEvent);
 
-        if (firstEvent.url) {
-          console.log('Event URL:', firstEvent);
-        }
-        else {
-          console.log('Event URL not available');
-        }
       } else {
         console.log('No events found.')
       }
@@ -111,5 +93,5 @@ function proximitySearchEvents(keyword, zipcode) {
 }
 
 //Testing Section
-
+searchEvents('bruno mars')
 
