@@ -4,8 +4,10 @@ const apiUrl = 'https://app.ticketmaster.com/discovery/v2/events.json';
 
 
 //This function finds the first event from a string keyword
-function searchEvents(keyword) {
+function searchEvents() {
+  const keyword = document.getElementById("artistName").value.toLowerCase();
   const url = `${apiUrl}?keyword=${keyword}&apikey=${apiKey}`;
+  
 
   // Fetch 
   fetch(url)
@@ -48,6 +50,7 @@ function displayEventInfo(event){
   eventInfoSection.innerHTML = eventHTML;
 
 }
+
 
 //Unused Code/Old Modified Functions
 
