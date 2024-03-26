@@ -5,16 +5,11 @@
 </head>
 <body>
     <h1>Artist Search</h1>
+    <script src="tmaster.js"></script>
+    <input type="text" id="artistName" placeholder="Enter an artist's name">
+    <button onclick="searchEvents()">enter</button><br>
     
-    <!-- Add a div element to display event information -->
     <div id="eventInfo"></div>
 
-    <script src="tmaster.js"></script>
-
-    <script>
-        // Call the function by prompting user input
-        let keyword = window.prompt("What is the artist's name?");
-        searchEvents(keyword);
-    </script>
 </body>
 </html>
